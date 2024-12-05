@@ -1,0 +1,64 @@
+{
+  "cities": [
+    {
+      "cityName": "karney shomron",
+      "country": "Palestine, State of",
+      "emoji": "🇵🇸",
+      "date": "2024-12-04T21:46:41.911Z",
+      "notes": "my home",
+      "position": {
+        "lat": "32.17179800164801",
+        "lng": "35.097885131835945"
+      },
+      "id": 10
+    },
+    {
+      "cityName": "glilot",
+      "country": "Israel",
+      "emoji": "🇮🇱",
+      "date": "2024-12-04T21:47:25.180Z",
+      "notes": "my base",
+      "position": {
+        "lat": "32.14653783002216",
+        "lng": "34.82139229774476"
+      },
+      "id": 11
+    },
+    {
+      "cityName": "mifrasit",
+      "country": "Israel",
+      "emoji": "🇮🇱",
+      "date": "2024-12-04T21:48:31.087Z",
+      "notes": "my 2th base",
+      "position": {
+        "lat": "30.904542487050175",
+        "lng": "34.5217788219452"
+      },
+      "id": 12
+    },
+    {
+      "cityName": "Eilat",
+      "country": "Israel",
+      "emoji": "🇮🇱",
+      "date": "2024-12-04T21:49:16.309Z",
+      "notes": "my 2th home",
+      "position": {
+        "lat": "29.560466898353067",
+        "lng": "34.95012223720551"
+      },
+      "id": 13
+    },
+    {
+      "cityName": "Kfar Tavor",
+      "country": "Israel",
+      "emoji": "🇮🇱",
+      "date": "2024-12-04T21:50:36.000Z",
+      "notes": "my heart",
+      "position": {
+        "lat": "32.68848572744539",
+        "lng": "35.41781902313233"
+      },
+      "id": 14
+    }
+  ]
+}
