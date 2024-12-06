@@ -16,4 +16,4 @@ function AppNav() {
   );
 }
 
-export default AppNav;
+export { AppNav };
