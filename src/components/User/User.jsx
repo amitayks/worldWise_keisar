@@ -20,7 +20,7 @@ function User() {
   );
 }
 
-export default User;
+export { User };
 
 /*
 CHALLENGE

@@ -1,64 +1,48 @@
 {
   "cities": [
     {
-      "cityName": "karney shomron",
+      "cityName": "Rafaḩ",
       "country": "Palestine, State of",
-      "emoji": "🇵🇸",
-      "date": "2024-12-04T21:46:41.911Z",
-      "notes": "my home",
+      "date": "2024-12-08T20:04:27.823Z",
+      "notes": "",
       "position": {
-        "lat": "31.17179800164801",
-        "lng": "36.097885131835945"
+        "lat": "31.295981952366287",
+        "lng": "34.25125122070313"
       },
-      "id": 50024
+      "id": 1
     },
     {
-      "cityName": "glilot",
-      "country": "Israel",
-      "emoji": "🇮🇱",
-      "date": "2024-12-04T21:47:25.180Z",
-      "notes": "my base",
+      "cityName": "Ţulkarm",
+      "country": "Palestine, State of",
+      "date": "2024-12-08T20:04:46.623Z",
+      "notes": "",
       "position": {
-        "lat": "36.14653783002216",
-        "lng": "39.82139229774476"
+        "lat": "32.25443395966859",
+        "lng": "35.12603759765626"
       },
-      "id": 50025
+      "id": 2
     },
     {
-      "cityName": "mifrasit",
-      "country": "Israel",
-      "emoji": "🇮🇱",
-      "date": "2024-12-04T21:48:31.087Z",
-      "notes": "my 2th base",
+      "cityName": "Rmaysh",
+      "country": "Lebanon",
+      "date": "2024-12-08T20:05:09.375Z",
+      "notes": "",
       "position": {
-        "lat": "31.904542487050175",
-        "lng": "35.5217788219452"
+        "lat": "33.07413952680778",
+        "lng": "35.37185668945313"
       },
-      "id": 50026
+      "id": 3
     },
     {
-      "cityName": "Eilat",
-      "country": "Israel",
-      "emoji": "🇮🇱",
-      "date": "2024-12-04T21:49:16.309Z",
-      "notes": "my 2th home",
+      "cityName": "Qaţana",
+      "country": "Syrian Arab Republic (the)",
+      "date": "2024-12-08T20:05:29.071Z",
+      "notes": "",
       "position": {
-        "lat": "22.560466898353067",
-        "lng": "37.95012223720551"
+        "lat": "33.40232542798622",
+        "lng": "35.84701538085938"
       },
-      "id": 50027
-    },
-    {
-      "cityName": "Kfar Tavor",
-      "country": "Israel",
-      "emoji": "🇮🇱",
-      "date": "2024-12-04T21:50:36.000Z",
-      "notes": "my heart",
-      "position": {
-        "lat": "38.68848572744539",
-        "lng": "32.41781902313233"
-      },
-      "id": 50029
+      "id": 4
     }
   ]
 }
