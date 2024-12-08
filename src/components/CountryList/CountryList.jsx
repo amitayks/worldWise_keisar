@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 import styles from "./CountryList.module.css";
-import Message from "./Message";
-import Spinner from "./Spinner";
-import CountryItem from "./CountryItem";
+import Message from "../Message/Message";
+import Spinner from "../Spinner/Spinner";
+import CountryItem from "../CountryItem/CountryItem";
 import { uniqBy } from "lodash";
-import { useCity } from "../contexts/CityContext";
+import { useCity } from "../../contexts/CityContext";
 
 function CountryList() {
   const { cities, isLoading } = useCity();

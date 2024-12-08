@@ -1,4 +1,4 @@
-import PageNav from "../components/PageNav";
+import PageNav from "../components/PageNav/PageNav";
 
 export default function PageNotFound() {
   return (

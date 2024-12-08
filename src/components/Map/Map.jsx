@@ -9,10 +9,10 @@ import {
 } from "react-leaflet";
 import styles from "./Map.module.css";
 import { useEffect, useState } from "react";
-import { useCity } from "../contexts/CityContext";
-import { UseGeolocation } from "../hooks/useGeolocation";
-import Button from "./Button";
-import { UseUrlPosition } from "../hooks/useUrlPosition";
+import { useCity } from "../../contexts/CityContext";
+import { UseGeolocation } from "../../hooks/useGeolocation";
+import Button from "../Button/Button";
+import { UseUrlPosition } from "../../hooks/useUrlPosition";
 
 function Map() {
   const { cities } = useCity();

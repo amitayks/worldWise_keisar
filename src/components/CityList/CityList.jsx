@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
-import Spinner from "./Spinner";
-import CityItem from "./CityItem";
+import Spinner from "../Spinner/Spinner";
+import CityItem from "../CityItem";
 import styles from "./CityList.module.css";
-import Message from "./Message";
-import { useCity } from "../contexts/CityContext";
+import Message from "../Message/Message";
+import { useCity } from "../../contexts/CityContext";
 
 function CityList() {
   const { cities, isLoading } = useCity();

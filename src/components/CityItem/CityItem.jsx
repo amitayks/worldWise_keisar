@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import styles from "./CityItem.module.css";
-import { useCity } from "../contexts/CityContext";
-import { convertToEmoji } from "./Form";
+import { useCity } from "../../contexts/CityContext";
+import { convertToEmoji } from "../Form";
 
 const formatDate = (date) =>
   new Intl.DateTimeFormat("en", {
