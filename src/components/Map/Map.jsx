@@ -11,7 +11,7 @@ import styles from "./Map.module.css";
 import { useEffect, useState } from "react";
 import { useCity } from "../../contexts/CityContext";
 import { UseGeolocation } from "../../hooks/useGeolocation";
-import Button from "../Button/Button";
+import { Button } from "../Button/Button";
 import { UseUrlPosition } from "../../hooks/useUrlPosition";
 
 function Map() {
@@ -83,4 +83,4 @@ function DetectEvent() {
   });
 }
 
-export default Map;
+export { Map };

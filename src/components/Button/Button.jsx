@@ -9,4 +9,4 @@ function Button({ children, type, onClick }) {
   );
 }
 
-export default Button;
+export { Button };

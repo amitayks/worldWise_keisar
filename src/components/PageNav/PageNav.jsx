@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import styles from "./PageNav.module.css";
-import Logo from "../Logo/Logo";
+import { Logo } from "../Logo/Logo";
 
 function PageNav() {
   return (
@@ -24,4 +24,4 @@ function PageNav() {
   );
 }
 
-export default PageNav;
+export { PageNav };

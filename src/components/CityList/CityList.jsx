@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
-import Spinner from "../Spinner/Spinner";
-import CityItem from "../CityItem";
+import { Spinner } from "../Spinner/Spinner";
+import { CityItem } from "../CityItem";
 import styles from "./CityList.module.css";
-import Message from "../Message/Message";
+import { Message } from "../Message/Message";
 import { useCity } from "../../contexts/CityContext";
 
 function CityList() {
@@ -26,4 +26,4 @@ function CityList() {
   );
 }
 
-export default CityList;
+export { CityList };

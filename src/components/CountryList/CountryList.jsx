@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 import styles from "./CountryList.module.css";
-import Message from "../Message/Message";
-import Spinner from "../Spinner/Spinner";
-import CountryItem from "../CountryItem/CountryItem";
+import { Message } from "../Message/Message";
+import { Spinner } from "../Spinner/Spinner";
+import { CountryItem } from "../CountryItem/CountryItem";
 import { uniqBy } from "lodash";
 import { useCity } from "../../contexts/CityContext";
 
@@ -30,4 +30,4 @@ function CountryList() {
   );
 }
 
-export default CountryList;
+export { CountryList };

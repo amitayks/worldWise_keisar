@@ -10,4 +10,4 @@ function CountryItem({ country }) {
   );
 }
 
-export default CountryItem;
+export { CountryItem };

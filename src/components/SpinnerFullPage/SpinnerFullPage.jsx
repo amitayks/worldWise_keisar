@@ -1,4 +1,4 @@
-import Spinner from "../Spinner/Spinner";
+import { Spinner } from "../Spinner/Spinner";
 import styles from "./SpinnerFullPage.module.css";
 
 function SpinnerFullPage() {
@@ -9,4 +9,4 @@ function SpinnerFullPage() {
   );
 }
 
-export default SpinnerFullPage;
+export { SpinnerFullPage };

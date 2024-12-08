@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import styles from "./CityItem.module.css";
 import { useCity } from "../../contexts/CityContext";
-import { convertToEmoji } from "../Form";
+// import { convertToEmoji } from "../Form";
 
 const formatDate = (date) =>
   new Intl.DateTimeFormat("en", {
@@ -13,8 +13,8 @@ const formatDate = (date) =>
 
 function CityItem({ city }) {
   const { currentCity, deleteCity } = useCity();
-  const { emoji, date, cityName, id, position } = city;
-  const cityEmoji = convertToEmoji(emoji);
+  const { date, cityName, id, position } = city;
+  // const cityEmoji = convertToEmoji(emoji);
 
   function handleDelete(e) {
     e.preventDefault();
@@ -40,4 +40,4 @@ function CityItem({ city }) {
   );
 }
 
-export default CityItem;
+export { CityItem };

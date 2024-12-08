@@ -9,4 +9,4 @@ function Message({ message }) {
   );
 }
 
-export default Message;
+export { Message };

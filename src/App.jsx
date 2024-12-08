@@ -5,12 +5,12 @@ import "./index.css";
 import { CityProvider } from "./contexts/CityContext";
 import { FakeAuthProvider } from "./contexts/FakeAuthContext";
 
-import CityList from "./components/CityList/CityList";
-import CountryList from "./components/CountryList/CountryList";
-import City from "./components/Ctiy/City";
-import Form from "./components/Form";
+import { CityList } from "./components/CityList/CityList";
+import { CountryList } from "./components/CountryList/CountryList";
+import { City } from "./components/Ctiy/City";
+import { Form } from "./components/Form";
 import ProtectedRouts from "./pages/ProtectedRouts";
-import SpinnerFullPage from "./components/SpinnerFullPage/SpinnerFullPage";
+import { SpinnerFullPage } from "./components/SpinnerFullPage/SpinnerFullPage";
 
 // import HomePage from "./pages/Homepage";
 // import Product from "./pages/Product";
