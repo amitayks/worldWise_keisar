@@ -8,9 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 *.json
-data/cities.json
 
-node_modules/
 node_modules
 dist
 dist-ssr
