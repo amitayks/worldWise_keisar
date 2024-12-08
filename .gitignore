@@ -7,9 +7,11 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+*.json
+data/cities.json
+
 node_modules/
 node_modules
-data/cities.json
 dist
 dist-ssr
 *.local
